@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
-    <link rel="stylesheet" href="portafolio/portafolioSACH.css"> <!-- Corregí la extensión del archivo CSS -->
+    <link rel="stylesheet" href="portafolio/portafolioSACH.css">
     <link rel="stylesheet" href="styless.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
     <div class="wrapper">
@@ -17,7 +18,7 @@
                 </div>
                 <ul class="menu">
                     <li><a class="active" href="#">Inicio</a></li>
-                    <li><a href="#">Sobre mi</a></li>
+                    <li><a href="#">Sobre mí</a></li>
                     <li><a href="#">Portafolio</a></li>
                     <li><a href="#">Contacto</a></li>
                 </ul>
@@ -27,9 +28,8 @@
         <main class="main">
             <div class="info-content">
                 <h1>Soy <span>Sara</span> CH</h1>
-                <p>Mi nombre es Sara y actualmente curso el quinto semestre de la carrera de Desarrollo de Software en la UTP. A lo largo de mi formación, he adquirido conocimientos en programación en lenguajes como Java, Python, C, y HTML/CSS.
-                    Me apasiona crear soluciones tecnológicas que mejoren la experiencia del usuario, y disfruto trabajar en proyectos que combinan tanto el desarrollo frontend como el backend. He trabajado en proyectos personales que me han permitido poner en práctica lo aprendido.
-                    Estoy entusiasmada por seguir aprendiendo y enfrentar los desafíos que conlleva el mundo del desarrollo de software.</p>
+                <h2>Tecnología en Desarrollo de Software - <span>Frontend Developer</span></h2>
+                <p>Mi nombre es Sara y actualmente curso el quinto semestre de la carrera de Desarrollo de Software en la UTP. A lo largo de mi formación, he adquirido conocimientos en programación en lenguajes como Java, Python, C, y HTML/CSS. Me apasiona crear soluciones tecnológicas que mejoren la experiencia del usuario, y disfruto trabajar en proyectos que combinan tanto el desarrollo frontend como el backend. He trabajado en proyectos personales que me han permitido poner en práctica lo aprendido. Estoy entusiasmada por seguir aprendiendo y enfrentar los desafíos que conlleva el mundo del desarrollo de software.</p>
                 <a download href="#">
                     <button class="download-cv">Download CV</button>
                 </a>
@@ -38,37 +38,49 @@
         </main>
     </div>
 
+    <section class="habilidades-section">
+        <h2>Habilidades</h2>
+        <div class="habilidades-container">
+            <ul>
+                <li>HTML / CSS</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>Git / GitHub</li>
+            </ul>
+        </div>
+    </section>
+
     <section class="about">
         <img src="assets/WhatsApp Image 2024-09-25 at 19.43.04.jpeg" alt="Foto mia"> 
-
         <div class="about-info">
-            <h2>Sobre mi</h2>
+            <h2>Sobre mí</h2>
             <div class="divider"></div>
-            <p>Soy una estudiante de desarrollo de software apasionada por la naturaleza, la música y los animales. Disfruto desconectar del mundo tecnológico explorando el aire libre y conectándome con la tranquilidad que ofrece el entorno natural. La música también ocupa un lugar importante en mi vida, ya que encuentro inspiración y creatividad a través de diferentes géneros y ritmos. Además, soy amante de los animales, y siempre busco maneras de contribuir a su bienestar. Estas pasiones me equilibran y complementan mi enfoque hacia la tecnología y el desarrollo de software.
-            </p>
+            <p>Soy una estudiante de desarrollo de software apasionada por la naturaleza, la música y los animales. Disfruto desconectar del mundo tecnológico explorando el aire libre y conectándome con la tranquilidad que ofrece el entorno natural. La música también ocupa un lugar importante en mi vida, ya que encuentro inspiración y creatividad a través de diferentes géneros y ritmos. Además, soy amante de los animales, y siempre busco maneras de contribuir a su bienestar. Estas pasiones me equilibran y complementan mi enfoque hacia la tecnología y el desarrollo de software.</p>
             <button class="download-cv">Read More</button>
         </div>
     </section>
 
+
     <section class="projects">
+        <div class="portfolio-heading">
+            <h2>Proyectos</h2>
+            <div class="divider"></div>
+        </div>
+    
         <div class="container">
-            <!-- Tarjeta del Proyecto 1 -->
+            <!-- Proyecto 1 -->
             <div class="card">
-                <div class="card__img"></div>
+                <div class="card__img">
                     <img src="assets/WhatsApp Image 2024-09-25 at 18.57.28.jpeg" alt="Descripción del proyecto">
+                </div>
                 <div class="card__title">
-                    <h2>Moticos Azarosas. Pagina web de venta de motos en linea.</h2>
+                    <h2>Moticos Azarosas. Página web de venta de motos en línea.</h2>
                 </div>
                 <div class="card__proyect-links">
-                    <a href="#">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fas fa-globe-asia"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fas fa-code"></i>
-                    </a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fas fa-globe-asia"></i></a>
+                    <a href="#"><i class="fas fa-code"></i></a>
                 </div>
                 <div class="button-content">
                     <button class="project-details-button download-cv">
@@ -76,24 +88,19 @@
                     </button>
                 </div>
             </div>
-
-            <!-- Tarjeta del Proyecto 2 -->
+    
+            <!-- Proyecto 2 -->
             <div class="card">
-                <div class="card__img"></div>
+                <div class="card__img">
                     <img src="assets/WhatsApp Image 2024-09-25 at 19.06.59.jpeg" alt="Descripción del proyecto">
+                </div>
                 <div class="card__title">
-                    <h2>KOIN Aplicacion movil para el control de las finanzas personales.</h2>
+                    <h2>KOIN Aplicación móvil para el control de las finanzas personales.</h2>
                 </div>
                 <div class="card__proyect-links">
-                    <a href="#">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fas fa-globe-asia"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fas fa-code"></i>
-                    </a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fas fa-globe-asia"></i></a>
+                    <a href="#"><i class="fas fa-code"></i></a>
                 </div>
                 <div class="button-content">
                     <button class="project-details-button download-cv">
@@ -101,37 +108,39 @@
                     </button>
                 </div>
             </div>
+        </div>
     </section>
-
+    
     <section class="contact-section">
         <div class="contact-heading">
             <h2>Keep in Touch</h2>
             <div class="divider"></div>
         </div>
         <div class="container-contact">
-
             <div class="contact-form">
-                <h4>Contactame...</h4>
+                <h4>Contáctame...</h4>
                 <form class="form-group">
                     <input type="text" placeholder="Nombre" class="input">
                     <input type="email" placeholder="Email" class="input">
-                    <textarea name="message" placeholder="Dejame un mensaje..."></textarea>
+                    <textarea name="message" placeholder="Déjame un mensaje..."></textarea>
                     <button type="submit" class="btn-submit">Enviar mensaje</button>
                 </form>
             </div>
         </div>
     </section>
 
+    
     <footer class="footer">
         <div class="footer-content">
             <h2>Sara CH</h2>
             <h5>Frontend Developer</h5>
         </div>
         <div class="social-networks">
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-linkedin"></i>
-            <i class="fab fa-twitter-square"></i>
+            <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
         </div>
-    </footer>
+    </footer>    
 </body>
 </html>

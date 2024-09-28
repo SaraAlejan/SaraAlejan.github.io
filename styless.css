@@ -18,6 +18,10 @@ body {
     color: #000;
 }
 
+.navbar .menu li a {
+    font-size: 1.5rem; 
+    font-weight: bold; 
+}
 
 .brand {
     margin-top: -7px;
